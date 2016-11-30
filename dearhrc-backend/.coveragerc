@@ -1,0 +1,3 @@
+[run]
+source = dearhrc_backend
+omit = dearhrc_backend/test*
