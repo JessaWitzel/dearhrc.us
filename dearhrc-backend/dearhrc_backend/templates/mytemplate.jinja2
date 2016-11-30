@@ -1,8 +1,15 @@
 {% extends "layout.jinja2" %}
+{% block header %}
+<link rel="stylesheet" href="static/simplemde.min.css">
+<script src="static/simplemde.min.js"></script>
 
+{% endblock header %}
 {% block content %}
 <div class="content">
-  <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">Alchemy scaffold</span></h1>
-  <p class="lead">Welcome to <span class="font-normal">{{project}}</span>, an&nbsp;application generated&nbsp;by<br>the <span class="font-normal">Pyramid Web Framework 1.7.3</span>.</p>
+<textarea> </textarea>
+
 </div>
+<script>
+var simplemde = new SimpleMDE();
+</script>
 {% endblock content %}

@@ -1,1 +1,5 @@
 .tox
+*.pyc
+__pycache__
+*.sqlite
+*.egg-info
