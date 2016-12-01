@@ -27,6 +27,7 @@ ________________________________________________________________
 ## Detailed steps and links for Mac OSX users:
 
 **Install Homebrew:**
+
 Info and instructions here: http://brew.sh/
 
 Use Brew to install Python 3.4 or greater
@@ -42,6 +43,7 @@ Tox is a test environment manager - it manages the virtual environment for
 running the project’s test and invokes the test runner, which for us is py.test.
 
 **Create requirements.txt and tox.ini in the project directory (repo)**
+
 Example tox.ini file: https://github.com/juju-solutions/matrix/blob/master/tox.ini
 
 **Run Tox to create the virtual environment and install Pyramid**
@@ -52,6 +54,7 @@ When Tox installs Pyramid into the virtual environment, it adds the Python
 Pyramid libraries as well as the Pyramid command line tools “pcreate” and “pserve”.
 
 **Bootstrap the pyramid project using the alchemy scaffold:**
+
 http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/project.html#scaffolds-included-with-pyramid
 
 **Create the Pyramid App using the “alchemy” scaffold:**
@@ -59,14 +62,17 @@ http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/project.html#scaff
     $ .tox/py35/bin/pcreate -s alchemy dearhrc-backend
 
 **Set up Virtual Box for running Ubuntu in OSX:**
+
 Install and run Virtual Box: https://www.virtualbox.org/wiki/Downloads
 
 **Install 64 bit desktop image ISO:**
+
 Instructions: https://henricasanova.github.io/VirtualBoxUbuntuHowTo.html
 https://www.ubuntu.com/download During configuration, accept all defaults except
 for the image. For the image browse to the ISO file in downloads.
 
 **Run and set up Virtual Machine**
+
 Once the virtual machine is created, double click on it to run it. This will start the Ubuntu installation. Accept all defaults. Once Ubuntu is installed and running, open a terminal by pressing and releasing the command key and typing "terminal".
 
 **Install Juju:**
