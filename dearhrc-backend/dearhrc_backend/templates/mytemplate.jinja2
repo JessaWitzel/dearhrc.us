@@ -1,0 +1,15 @@
+{% extends "layout.jinja2" %}
+{% block header %}
+<link rel="stylesheet" href="static/simplemde.min.css">
+<script src="static/simplemde.min.js"></script>
+
+{% endblock header %}
+{% block content %}
+<div class="content">
+<textarea> </textarea>
+
+</div>
+<script>
+var simplemde = new SimpleMDE();
+</script>
+{% endblock content %}
